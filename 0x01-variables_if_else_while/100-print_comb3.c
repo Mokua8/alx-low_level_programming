@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - Entyr point
- * 
+ *
  * Return: Always 0 (success)
  */
 int main(void)
