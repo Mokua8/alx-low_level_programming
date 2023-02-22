@@ -2,7 +2,7 @@
 /**
  * _islower - Entry point
  * Description: checks if a character is lowercase 
- * of the integer it receives
+ * @c: the integer it receives
  * Return: 1 if true. 0 if false
  */
 int _islower(int c)
