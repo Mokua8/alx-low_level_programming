@@ -2,7 +2,7 @@
 /**
  * _abs - Entry point
  * Description: A function that computes the absolute value
- * @n interger
+ * @n: interger
  * Return: absolute value
  */
 int _abs(int n)
