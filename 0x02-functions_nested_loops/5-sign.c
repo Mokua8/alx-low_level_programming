@@ -6,11 +6,11 @@
  * Description: prints sign of number
  * Return: 1 if n>0, 0 if n==0, -1 if n<0
  */
-int print_sign(int c)
+int print_sign(int n)
 {
-int i = '+'
-int j = '0'
-int k = '-'
+int i = '+';
+int j = '0';
+int k = '-';
 if (n > 0)
 {
 putchar(j);
