@@ -9,12 +9,12 @@
 int _isalpha(int c)
 {
 int i;
-for (i = 'a'||'A'; i <= 'z'||'Z'; i++)
+for (i = 'a' || 'A'; i <= 'z' || 'Z'; i++)
 {
-if (c == i)
+if (c != i)
 {
-return (1);
-}
-}
 return (0);
+}
+}
+return (1);
 }
