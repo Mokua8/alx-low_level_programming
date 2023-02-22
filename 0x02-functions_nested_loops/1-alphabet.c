@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - check the code
+ * print_alphabet - Entry point
  * Description: code that prints alphabets
  * in lowercase, followed by a niw line
- * Return: Always 0.
+ * Return: void
  */
 void print_alphabet(void)
 {
