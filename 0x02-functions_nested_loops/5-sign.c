@@ -8,19 +8,16 @@
  */
 int print_sign(int n)
 {
-int i = '+';
-int j = '0';
-int k = '-';
 if (n > 0)
 {
-putchar(i);
+putchar('+');
 return (1);
 }
 else if (n < 0)
 {
-putchar(k);
+putchar('-');
 return (-1);
 }
-putchar (j);
+putchar ('0');
 return (0);
 }
