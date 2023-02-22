@@ -13,7 +13,7 @@ int j = '0';
 int k = '-';
 if (n > 0)
 {
-putchar(j);
+putchar(i);
 return (1);
 }
 else if (n < 0)
