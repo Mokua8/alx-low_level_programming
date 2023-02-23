@@ -7,9 +7,10 @@
  * @c: received integer
  * Return: 1 if true. 0 if false
  */
+
 int _isdigit(int c)
 {
-	if (c == '0')
+	if (c >= '0')
 	{
 		return (1);
 	}
