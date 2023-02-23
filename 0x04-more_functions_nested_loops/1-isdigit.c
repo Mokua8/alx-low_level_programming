@@ -9,12 +9,11 @@
  */
 int _isdigit(int c)
 {
-	for (i = '0'; i <= '9'; i++)
+	int c ='0'
+
+	if (c <= 9)
 	{
-		if (c != i)
-		{
-			return (0);
-		}
+		return (1);
 	}
-	return (1);
+	return (0);
 }
