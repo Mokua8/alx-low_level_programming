@@ -4,6 +4,7 @@
 /**
  * print_line - Entry point
  * Description: prints a line
+ * @n: number of times the character '_' should be printed
  * Return: void
  */
 
