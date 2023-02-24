@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * print_diagonal - Entry point
- * Description: draws a diagonal line on the terminal
+ * print_diagonal - prints a diagonal line on the terminal
  * @n: number of \ to be printed
- * Return: void 
+ *
+ * Return: void
  */
 
 void print_diagonal(int n)
