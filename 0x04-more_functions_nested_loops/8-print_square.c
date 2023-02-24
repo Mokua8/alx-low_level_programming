@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * print_square - Entry point
- * Description: prints a square followed by a new line
- * @size: received integer
+ * print_square - prints a square followed by a new line
+ * @size: size of the square
+ *
  * Return: void
  */
 
@@ -15,6 +15,7 @@ void print_square(int size)
 		_putchar('\n');
 		return;
 	}
+
 	int i, j;
 	for (i = 0; i < size; i++)
 	{
