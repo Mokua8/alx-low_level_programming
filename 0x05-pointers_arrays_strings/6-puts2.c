@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * puts - prints every other character of a string starting with the first character
+ * puts2 - prints every other character of a string starting with the first character
  * followed by a new line
  * @str: input string
  *
  * Return: void
  */
 
-void puts(char *str)
+void puts2(char *str)
 {
 	int i = 0;
 
