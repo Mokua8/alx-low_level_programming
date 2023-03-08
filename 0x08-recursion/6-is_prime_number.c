@@ -21,6 +21,7 @@ int is_divisible(int i, int div)
 	}
 
 	return (is_divisible(i, div + 1));
+}
 
 /**
  * is_prime_number - returns 1 if the input is a prime number
