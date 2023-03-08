@@ -29,7 +29,7 @@ int find_sqrt(int num, int root)
  * @n: input integer
  * if n does not have a natural square root
  * the function return -1
- * Retrun: integer
+ * Return: integer
  */
 
 int _sqrt_recursion(int n)
